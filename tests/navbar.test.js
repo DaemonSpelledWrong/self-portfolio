@@ -1,4 +1,4 @@
-import navbar from '../src/navbar';
+import navbar from '../src/Navbar/navbar';
 jest.mock('../src/navbar');
 
 beforeEach(() => {
