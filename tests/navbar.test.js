@@ -1,5 +1,5 @@
-import navbar from '../src/Navbar/navbar';
-jest.mock('../src/navbar');
+import navbar from '../src/Navbar/navbar.js';
+jest.mock('../src/Navbar/navbar.js');
 
 beforeEach(() => {
   navbar.mockClear();
@@ -7,5 +7,5 @@ beforeEach(() => {
 
 test('Checks if navbar is appended properly', () => {
   document.body.append(navbar());
-  expect(document.body.getElementsByClassName('navbar').toBeTruthy());
+  expect(document.body.getElementsByClassName('navbar'));
 });
