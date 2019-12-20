@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/DaemonSpelledWrong/self-portfolio#readme",
   "devDependencies": {
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10"
   }
 }
