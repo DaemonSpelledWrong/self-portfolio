@@ -4,6 +4,7 @@
   "description": "Self portfolio using vanilla JS and Sass",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server ./src/index.js",
     "test": "jest"
   },
   "repository": {
@@ -17,8 +18,11 @@
   },
   "homepage": "https://github.com/DaemonSpelledWrong/self-portfolio#readme",
   "devDependencies": {
+    "css-loader": "^3.4.0",
     "jest": "^24.9.0",
+    "style-loader": "^1.1.1",
     "webpack": "^4.41.4",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
   }
 }
