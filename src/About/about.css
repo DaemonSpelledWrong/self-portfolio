@@ -1,4 +1,28 @@
 .about-content {
-  height: 78vh;
+  display: flex;
+  flex-flow: row no-wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 85vh;
   width: 100vw;
+  padding-top: 2vh;
+}
+
+.text-container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 50vw;
+  height: 85vh;
+}
+
+.about-title {
+  font-size: 2rem;
+}
+
+.damon-about-image {
+  width: 40vw;
+}
+
+.about-text {
+  font-size: 1rem;
 }

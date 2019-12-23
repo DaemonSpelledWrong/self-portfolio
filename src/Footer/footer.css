@@ -2,13 +2,14 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: #aa6458c7;
+  background-color: transparent;
   height: 7vh;
 }
 
 .footer a {
   align-items: center;
   color: black;
+  text-shadow: 1px 1px #ffffff;
   font-size: 2rem;
 }
 
