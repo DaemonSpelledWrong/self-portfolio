@@ -1,3 +1,7 @@
+import github from '../../assets/circular-purple-github-logo.jpg';
+import linkedin from '../../assets/LinkedIn-Icon.png';
+import youtube from '../../assets/circular-youtube-logo.png';
+
 export default () => {
   const footer = document.createElement('section');
 
@@ -9,17 +13,17 @@ export default () => {
     },
     {
       'name' : 'github',
-      'image-link' : '../../assets/circular-purple-github-logo.jpg',
+      'image-link' : github,
       'content-link' : 'https://github.com/DaemonSpelledWrong'
     },
     {
       'name' : 'linkedin',
-      'image-link' : '../../assets/LinkedIn-Icon.png',
+      'image-link' : linkedin,
       'content-link' : 'https://www.linkedin.com/in/damonself/'
     },
     {
       'name' : 'youtube',
-      'image-link' : '../../assets/circular-youtube-logo.png',
+      'image-link' : youtube,
       'content-link' : 'https://www.youtube.com/channel/UCyy2cgxviiZX5t7QY0NJqhA'
     },
   ];
