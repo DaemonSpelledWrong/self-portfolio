@@ -1,7 +1,5 @@
 .main-content {
   display: flex;
-  align-items: center;
   justify-content: center;
-  background-color: lavender;
-  height: 75vh;
+  height: 78vh;
 }
