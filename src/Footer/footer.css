@@ -2,13 +2,14 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: grey;
-  height: 10vh;
+  background-color: #aa6458c7;
+  height: 7vh;
 }
 
 .footer a {
   align-items: center;
   color: black;
+  font-size: 2rem;
 }
 
 .footer a:link {
@@ -20,5 +21,5 @@
 }
 
 .footer-images {
-  height: 4rem;
+  height: 3rem;
 }
