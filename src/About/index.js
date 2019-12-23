@@ -1,3 +1,5 @@
+import me from '../../assets/self-portrait.jpg';
+
 export default () => {
   const about = document.createElement('section');
   const about_text_container = document.createElement('section');
@@ -25,7 +27,7 @@ export default () => {
   More stuff to come soon! Once I have this site actually functioning somewhat!
   `;
 
-  about_damon_image.src = '../../assets/self-portrait.JPG';
+  about_damon_image.src = me;
 
   about_text_container.append(about_title, about_damon_text);
   about.append(about_text_container, about_damon_image);
