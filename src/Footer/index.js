@@ -8,18 +8,18 @@ export default () => {
       'content-link' : '#'
     },
     {
-      'name' : 'linkedin',
-      'image-link' : 'http://www.vectorico.com/download/social_media/LinkedIn-Icon.png',
-      'content-link' : 'https://www.linkedin.com/in/damonself/'
-    },
-    {
       'name' : 'github',
-      'image-link' : 'https://image.flaticon.com/icons/png/512/25/25231.png',
+      'image-link' : '../../assets/circular-purple-github-logo.jpg',
       'content-link' : 'https://github.com/DaemonSpelledWrong'
     },
     {
+      'name' : 'linkedin',
+      'image-link' : '../../assets/LinkedIn-Icon.png',
+      'content-link' : 'https://www.linkedin.com/in/damonself/'
+    },
+    {
       'name' : 'youtube',
-      'image-link' : 'https://i.pinimg.com/originals/19/7b/36/197b365922d1ea3aa1a932ff9bbda4a6.png',
+      'image-link' : '../../assets/circular-youtube-logo.png',
       'content-link' : 'https://www.youtube.com/channel/UCyy2cgxviiZX5t7QY0NJqhA'
     },
   ];
