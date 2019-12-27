@@ -4,7 +4,8 @@
   align-items: center;
   justify-content: space-around;
   height: 15vh;
-  background-color: #E7DED9;
+  background-color: #986054;
+  border-bottom: 3px solid black;
 }
 
 .name-heading {

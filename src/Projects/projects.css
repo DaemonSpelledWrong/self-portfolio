@@ -1,0 +1,37 @@
+.projects-content {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #E7DED9;
+  height: 85vh;
+  width: 100vw;
+  padding-top: 2vh;
+}
+
+.projects-title {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.card-zone {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 70vh;
+}
+
+.project-cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  border: 2px solid black;
+  border-radius: 1rem;
+  padding: 1em;
+  /* box-shadow: 2px 2px black; */
+  height: 20vh;
+  width: 15vw;
+}

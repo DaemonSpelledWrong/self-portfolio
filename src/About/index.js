@@ -23,8 +23,6 @@ export default () => {
   users because I find happiness in other people's happiness! If something
   that I design can change someone's job, life, or just day for the better
   then I have succeeded as a developer.
-
-  More stuff to come soon! Once I have this site actually functioning somewhat!
   `;
 
   about_damon_image.src = me;
