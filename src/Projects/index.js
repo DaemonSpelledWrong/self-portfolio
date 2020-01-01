@@ -1,6 +1,6 @@
 export default () => {
   const projects_zone = document.createElement('section');
-  const projects_title = document.createElement('h2');
+  const projects_title = document.createElement('h1');
   const project_cards = document.createElement('div');
 
   projects_zone.className = 'projects-content';

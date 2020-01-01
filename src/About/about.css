@@ -3,16 +3,17 @@
   flex-flow: row no-wrap;
   align-items: flex-start;
   justify-content: space-between;
+  background-color: white;
   height: 85vh;
-  width: 90vw;
-  padding-top: 2vh;
+  width: 100vw;
+  padding: 2vh;
 }
 
 .text-container {
   display: flex;
   flex-flow: row wrap;
-  width: 50vw;
-  height: 85vh;
+  width: 40vw;
+  height: 78vh;
 }
 
 .about-title {

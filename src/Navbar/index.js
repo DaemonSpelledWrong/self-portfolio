@@ -1,24 +1,50 @@
+import github from '../../assets/circular-purple-github-logo.jpg';
+import linkedin from '../../assets/LinkedIn-Icon.png';
+import youtube from '../../assets/circular-youtube-logo.png';
+
 export default () => {
   const header = document.createElement('header');
   const name_heading = document.createElement('section');
-  const navbar = document.createElement('nav');
-  const navbar_items = ['Home', 'About', 'Projects', 'Contact', 'YouTube']
+  const media_container = document.createElement('div');
+
+  const media_icons = [
+    {
+      'name' : 'github',
+      'image-link' : github,
+      'content-link' : 'https://github.com/DaemonSpelledWrong'
+    },
+    {
+      'name' : 'linkedin',
+      'image-link' : linkedin,
+      'content-link' : 'https://www.linkedin.com/in/damonself/'
+    },
+    {
+      'name' : 'youtube',
+      'image-link' : youtube,
+      'content-link' : 'https://www.youtube.com/channel/UCyy2cgxviiZX5t7QY0NJqhA'
+    },
+  ];
+
+  media_icons.forEach(icon => {
+    const media_icon_link = document.createElement('a');
+    const media_icon_image = document.createElement('img');
+
+    media_container.className = 'media-container';
+    media_icon_image.className = 'media-images';
+
+    media_icon_link.href = icon['content-link'];
+    media_icon_image.src = icon['image-link'];
+    media_icon_image.alt = icon['name'];
+
+    media_icon_link.appendChild(media_icon_image);
+    media_container.appendChild(media_icon_link);
+  });
 
   header.className = 'navigation';
   name_heading.className = 'name-heading';
-  navbar.className = 'navbar';
 
   name_heading.textContent = 'Damon Self'
-  
-  navbar_items.forEach(page => {
-    let page_link = document.createElement('a');
 
-    page_link.href = '#';
-    page_link.textContent = page;
-
-    navbar.appendChild(page_link);
-  });
-  
-  header.append(name_heading, navbar);
+  header.append(name_heading, media_container);
   return header;
 };

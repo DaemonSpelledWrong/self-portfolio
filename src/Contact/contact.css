@@ -1,0 +1,23 @@
+.contact-zone {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 85vh;
+  width: 100vw;
+  padding-top: 2vh;
+}
+
+.contacts-title {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.contacts-card-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 70vh;
+}
