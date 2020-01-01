@@ -2,6 +2,12 @@ import github from '../../assets/circular-purple-github-logo.jpg';
 import linkedin from '../../assets/LinkedIn-Icon.png';
 import youtube from '../../assets/circular-youtube-logo.png';
 
+window.addEventListener('DOMContentLoaded', event => {
+  document.querySelector('.name-heading').addEventListener('click', event => {
+    document.querySelector('.home-content').scrollIntoView({ behavior: 'smooth' });
+  });
+});
+
 export default () => {
   const header = document.createElement('header');
   const name_heading = document.createElement('section');

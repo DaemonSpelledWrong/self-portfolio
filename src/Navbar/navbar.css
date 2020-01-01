@@ -12,6 +12,7 @@
   font-size: 3em;
   color: white;
   height: 7vh;
+  cursor: pointer;
 }
 
 .media-container {
