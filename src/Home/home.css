@@ -2,19 +2,45 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  align-items: center;
+  background-image: url('../../assets/red-rocks-amp-exterior.jpg');
+  background-size: cover;
+  background-position: center;
   height: 85vh;
   width: 100vw;
-  overflow: scroll;
 }
 
 .home-greeting {
   display: flex;
   justify-content: center;
-  background-image: url('../../assets/red-rocks-amp-exterior.jpg');
-  background-size: cover;
-  background-position: center;
+  background-color: transparent;
+  color: #363D4F;
   font-size: 3rem;
-  padding-top: 2rem;
-  height: 85vh;
   width: 100vw;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color:rgba(152, 96, 84, 0.4);
+  border-radius: 1em;
+  font-size: 2em;
+  height: 30vh;
+  width: 80vw;
+}
+
+.navbar a:link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+}
+
+.navbar a:visited {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+  color: black;
 }
