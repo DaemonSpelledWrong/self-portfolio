@@ -18,7 +18,7 @@ export default () => {
     },
   ];
 
-  contacts_title.textContent = 'My Contact Info!';
+  contacts_title.textContent = 'Contact Info';
   contact_form.textContent = 'Form for directly messaging me is coming soon!';
 
   contact_zone.className = 'contact-zone';
