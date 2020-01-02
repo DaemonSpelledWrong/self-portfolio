@@ -3,22 +3,20 @@ window.addEventListener('DOMContentLoaded', event => {
     child.addEventListener('click', event => {
       event.preventDefault();
 
-      if(child.innerText === 'Home'){
-        document.querySelector('.home-content').scrollIntoView({ behavior: 'smooth' });
-      } else if(child.innerText === 'About'){
+      if(child.innerText === 'About'){
         document.querySelector('.about-content').scrollIntoView({ behavior: 'smooth' });
       } else if(child.innerText === 'Projects'){
         document.querySelector('.projects-content').scrollIntoView({ behavior: 'smooth' });
       } else if(child.innerText === 'Contact'){
         document.querySelector('.contact-zone').scrollIntoView({ behavior: 'smooth' });
       } else {
-        document.querySelector('.contact-zone').scrollIntoView({ behavior: 'smooth' });
+        null;
       };
     });
   });
 });
 
-const navbar_items = [ 'Home', 'About', 'Projects', 'Contact', 'Youtube' ];
+const navbar_items = [ 'About', 'Projects', 'Contact'];
 
 export default () => {
   const home = document.createElement('section');
