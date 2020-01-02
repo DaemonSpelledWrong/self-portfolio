@@ -3,7 +3,7 @@
   flex-flow: row no-wrap;
   align-items: flex-start;
   justify-content: space-between;
-  background-color: white;
+  background-color: #83454857;
   height: 85vh;
   width: 100vw;
   padding: 2vh;
@@ -23,6 +23,8 @@
 
 .damon-about-image {
   width: 40vw;
+  border: 2px solid black;
+  border-radius: 50%;
 }
 
 .about-text {

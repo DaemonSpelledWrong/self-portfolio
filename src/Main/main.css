@@ -2,7 +2,8 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: scroll;
   height: 85vh;
   width: 100vw;
 }

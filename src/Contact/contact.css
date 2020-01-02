@@ -3,7 +3,7 @@
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
-  background-color: white;
+  background-color: #83454857;
   height: 85vh;
   width: 100vw;
   padding-top: 2vh;
@@ -20,4 +20,17 @@
   align-items: center;
   width: 100vw;
   height: 70vh;
+}
+
+.contact-cards {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-flow: column wrap;
+  background-color: #E7DED9;
+  border: 2px solid black;
+  border-radius: 1rem;
+  padding: 1em;
+  height: 20vh;
+  width: 15vw;
 }
