@@ -7,7 +7,7 @@ export default () => {
   project_cards.className = 'card-zone';
   projects_title.className = 'projects-title';
 
-  projects_title.textContent = 'My Projects!';
+  projects_title.textContent = 'Projects';
 
   const projects = [
     {
