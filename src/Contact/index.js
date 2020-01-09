@@ -1,3 +1,5 @@
+import resume from "../../assets/Damon Self's Software Development Resume.docx.pdf";
+
 export default () => {
   const contact_zone = document.createElement('section');
   const contact_cards = document.createElement('div');
@@ -6,15 +8,21 @@ export default () => {
   const contact_info = [
     {
       'type' : 'Email',
-      'content' : 'damongself@gmail.com'
+      'content' : 'damongself@gmail.com',
+      'downloadable' : false,
+      'link'  : '#'
     },
     {
       'type' : 'Phone',
-      'content' : '(720) 345-7924'
+      'content' : '(720) 345-7924',
+      'downloadable' : false,
+      'link'  : '#'
     },
     {
       'type' : 'Resume',
-      'content' : 'Attached soon!'
+      'content' : 'Download',
+      'downloadable' : true,
+      'link'  : resume
     },
   ];
 
@@ -28,12 +36,14 @@ export default () => {
   contact_info.forEach(contact => {
     const contact_card = document.createElement('div');
     const contact_content_title = document.createElement('h2');
-    const contact_content = document.createElement('p');
+    const contact_content = document.createElement('a');
 
     contact_card.className = 'contact-cards';
 
     contact_content_title.textContent = contact['type'];
     contact_content.textContent = contact['content'];
+    contact['downloadable'] === true ? contact_content.download = true : null;
+    contact_content.href = contact['link'];
 
     contact_card.append(contact_content_title, contact_content);
     contact_cards.appendChild(contact_card);
