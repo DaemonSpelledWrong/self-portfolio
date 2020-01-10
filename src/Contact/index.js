@@ -10,13 +10,13 @@ export default () => {
       'type' : 'Email',
       'content' : 'damongself@gmail.com',
       'downloadable' : false,
-      'link'  : '#'
+      'link'  : 'mailto:damongself@gmail.com'
     },
     {
       'type' : 'Phone',
       'content' : '(720) 345-7924',
       'downloadable' : false,
-      'link'  : '#'
+      'link'  : "tel://+7203457924"
     },
     {
       'type' : 'Resume',
@@ -42,7 +42,7 @@ export default () => {
 
     contact_content_title.textContent = contact['type'];
     contact_content.textContent = contact['content'];
-    contact['downloadable'] === true ? contact_content.download = true : null;
+    contact['downloadable'] === true ? contact_content.download = "Damon's Resume.pdf" : null;
     contact_content.href = contact['link'];
 
     contact_card.append(contact_content_title, contact_content);
