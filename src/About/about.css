@@ -6,7 +6,6 @@
   background-color: #83454857;
   height: 85vh;
   width: 100vw;
-  padding: 2vh;
 }
 
 .info-container {
@@ -36,4 +35,19 @@
 .about-text {
   font-size: 1.5em;
   width: 55vw;
+}
+
+@media screen and (max-width: 1280px) {
+  .about-text {
+    font-size: 0.8em;
+    width: 55vw;
+  }
+  .info-container {
+    display: flex;
+    flex-flow: column-reverse nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 77vh;
+}
 }
