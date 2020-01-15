@@ -26,3 +26,16 @@
 .media-images {
   height: 3rem;
 }
+
+@media screen and (max-width: 1280px) {
+  .media-images {
+    height: 2.5rem;
+  }
+  .media-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80vw;
+    height: 7vh;
+  }
+}

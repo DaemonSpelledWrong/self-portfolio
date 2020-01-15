@@ -27,7 +27,7 @@ export default () => {
   home.className = 'home-content';
   home_greeting.className = 'home-greeting';
   
-  home_greeting.textContent = 'Welcome to my website! Feel free to look around below.';
+  home_greeting.textContent = "Check out what I bring to the table so we can build something great together!";
   
   navbar_items.forEach(page => {
     const page_link = document.createElement('a');

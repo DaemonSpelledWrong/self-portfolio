@@ -26,7 +26,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
   background-color: #E7DED9;
   border: 2px solid black;
   border-radius: 1rem;
@@ -37,4 +37,28 @@
 
 .contact-cards > h2 {
   font-size: 2em;
+}
+
+@media screen and (max-width: 1200px) {
+  .contacts-card-container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 70vh;
+  }
+
+  .contact-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+    background-color: #E7DED9;
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 1em;
+    height: 20vh;
+    width: 95vw;
+  }
 }

@@ -24,8 +24,8 @@
 
 .project-cards {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
+  flex-flow: column wrap;
+  justify-content: space-around;
   align-items: center;
   background-color: #83454857;
   border: 2px solid black;
@@ -44,4 +44,29 @@
 .project-cards a:visited {
   font-size: 1.5em;
   color: black;
+}
+
+@media screen and (max-width: 1280px) {
+  .card-zone { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 70vh;
+  }
+
+  .project-cards {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #83454857;
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 1em;
+    /* box-shadow: 2px 2px black; */
+    height: 20vh;
+    width: 95vw;
+  }
 }
