@@ -62,3 +62,15 @@
     width: 80vw;
   }
 }
+
+@media screen and (max-width: 1366px) {
+  .home-greeting{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    color: #363D4F;
+    font-size: 3rem;
+    text-align: center;
+    width: 100vw;
+  }
+}
