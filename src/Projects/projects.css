@@ -71,7 +71,7 @@
   }
 }
 
-@media screen and (max-width: 1366px) {
+@media screen and (min-width: 1281px) {
   .card-zone { 
     display: flex;
     flex-direction: column;
