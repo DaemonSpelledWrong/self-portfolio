@@ -63,7 +63,7 @@
   }
 }
 
-@media screen and (max-width: 1366px) {
+@media screen and (min-width: 1281px){
   .home-greeting{
     display: flex;
     justify-content: center;
