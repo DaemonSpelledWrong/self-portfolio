@@ -24,16 +24,16 @@
 
 .project-cards {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
   justify-content: space-around;
   align-items: center;
   background-color: #83454857;
   border: 2px solid black;
   border-radius: 1rem;
   padding: 1em;
-  /* box-shadow: 2px 2px black; */
   height: 20vh;
   width: 15vw;
+  text-align: center;
 }
 
 .project-cards a:link {
@@ -44,6 +44,19 @@
 .project-cards a:visited {
   font-size: 1.5em;
   color: black;
+}
+
+.project-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60vw;
+  height: 16vh;
+}
+
+.project-images {
+  width: 15vw;
+  height: 14vh;
 }
 
 @media screen and (max-width: 1280px) {
@@ -58,16 +71,16 @@
 
   .project-cards {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     justify-content: space-around;
     align-items: center;
     background-color: #83454857;
     border: 2px solid black;
     border-radius: 1rem;
     padding: 1em;
-    /* box-shadow: 2px 2px black; */
     height: 20vh;
     width: 95vw;
+    text-align: center;
   }
 }
 
@@ -90,8 +103,21 @@
     border: 2px solid black;
     border-radius: 1rem;
     padding: 1em;
-    /* box-shadow: 2px 2px black; */
     height: 20vh;
     width: 95vw;
+    text-align: center;
+  }
+
+  .project-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60vw;
+    height: 16vh;
+  }
+  
+  .project-images {
+    width: 15vw;
+    height: 14vh;
   }
 }
