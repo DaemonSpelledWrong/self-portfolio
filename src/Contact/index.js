@@ -14,7 +14,7 @@ export default () => {
     },
     {
       'type' : 'Phone',
-      'content' : '(720) 345-7924',
+      'content' : '1-720-345-7924',
       'downloadable' : false,
       'link'  : "tel://+7203457924"
     },
