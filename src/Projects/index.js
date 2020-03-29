@@ -24,7 +24,7 @@ export default () => {
     },
     {
       'name'        : 'Self Portfolio',
-      'link'        : 'https://damon-self.firebaseapp.com/',
+      'link'        : 'https://github.com/DaemonSpelledWrong/self-portfolio',
       'description' : 'The portfolio you are currently reading! Check out the source code if you like.',
       'image'       : portfolio,
       'youtube'     : '',
