@@ -1,6 +1,5 @@
 import github from '../../assets/circular-purple-github-logo.jpg';
 import linkedin from '../../assets/LinkedIn-Icon.png';
-import youtube from '../../assets/circular-youtube-logo.png';
 
 window.addEventListener('DOMContentLoaded', event => {
   document.querySelector('.name-heading').addEventListener('click', event => {
@@ -23,12 +22,7 @@ export default () => {
       'name' : 'linkedin',
       'image-link' : linkedin,
       'content-link' : 'https://www.linkedin.com/in/damonself/'
-    },
-    {
-      'name' : 'youtube',
-      'image-link' : youtube,
-      'content-link' : 'https://www.youtube.com/channel/UCyy2cgxviiZX5t7QY0NJqhA'
-    },
+    }
   ];
 
   media_icons.forEach(icon => {
