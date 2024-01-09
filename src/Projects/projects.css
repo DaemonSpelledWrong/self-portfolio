@@ -3,7 +3,7 @@
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
-  background-color: #E7DED9;
+  background: linear-gradient(#E7DED9 ,#83454857);
   height: 85vh;
   width: 100vw;
   padding-top: 2vh;
@@ -28,7 +28,7 @@
   justify-content: space-around;
   align-items: center;
   background-color: #83454857;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   border-radius: 1rem;
   padding: 1em;
   height: 20vh;
@@ -75,7 +75,7 @@
     justify-content: space-around;
     align-items: center;
     background-color: #83454857;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-radius: 1rem;
     padding: 1em;
     height: 20vh;
@@ -100,11 +100,10 @@
     justify-content: space-around;
     align-items: center;
     background-color: #83454857;
-    border: 2px solid black;
     border-radius: 1rem;
     padding: 1em;
     height: 20vh;
-    width: 95vw;
+    width: 65vw;
     text-align: center;
   }
 

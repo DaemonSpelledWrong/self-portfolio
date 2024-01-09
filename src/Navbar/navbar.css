@@ -18,13 +18,14 @@
 .media-container {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   width: 30vw;
   height: 7vh;
 }
 
 .media-images {
   height: 3rem;
+  margin: 2px;
 }
 
 @media screen and (max-width: 1280px) {
