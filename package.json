@@ -4,7 +4,7 @@
   "description": "Self portfolio using vanilla JS and Sass",
   "private": true,
   "scripts": {
-    "start": "webpack-dev-server ./src/index.js",
+    "start": "webpack-dev-server ./src/index.js --hot",
     "test": "jest",
     "build": "webpack"
   },

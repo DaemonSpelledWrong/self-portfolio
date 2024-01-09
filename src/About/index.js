@@ -1,4 +1,4 @@
-import me from '../../assets/self-portrait.jpg';
+import me from '../../assets/me_jan_2024.jpg';
 
 export default () => {
   const about = document.createElement('section');

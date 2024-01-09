@@ -8,15 +8,9 @@ export default () => {
   const contact_info = [
     {
       'type' : 'Email',
-      'content' : 'damongself@gmail.com',
+      'content' : 'damongself@protonmail.com',
       'downloadable' : false,
-      'link'  : 'mailto:damongself@gmail.com'
-    },
-    {
-      'type' : 'Phone',
-      'content' : '1-720-345-7924',
-      'downloadable' : false,
-      'link'  : "tel://+7203457924"
+      'link'  : 'mailto:damongself@protonmail.com'
     },
     {
       'type' : 'Resume',
