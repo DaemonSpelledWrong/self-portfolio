@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "damon-self"
-  }
+  },
+  "targets": {
+    "damon-self": {
+      "hosting": {
+        "portfolio": [
+          "damon-self"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
