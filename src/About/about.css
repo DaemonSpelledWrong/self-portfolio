@@ -3,7 +3,7 @@
   flex-flow: row wrap;
   align-items: flex-start;
   justify-content: center;
-  background-color: #83454857;
+  background: linear-gradient(#83454857 ,#E7DED9);
   height: 85vh;
   width: 100vw;
 }
