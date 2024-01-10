@@ -17,21 +17,24 @@ export default () => {
 
   about_damon_text.innerHTML = 
   `
-  Hey there! My name is Damon Self and I'm a software developer.
+  Hi! My name is Damon Self and I've been a software developer for over 4 years now.
   I graduated from Flatiron School's 15 week immersive bootcamp in 
-  December of 2019. I absolutely love designing software that is intuitive 
-  for user consumption because impacting someone's happiness on a daily basis 
-  brings me joy. If one of my creations or contributions change someone's day
-  for the better then I've succeeded as a developer.
+  December of 2019 and have been working as a Backend Software Developer at Whiplash
+  E-Commerce since May of 2020.
   `
   + "<br>" + "<br>" + 
   `
   My passion for developing software bloomed while working for retail stores and 
-  using their proprietary software. Often it would be frustrating and slow or the
-  system would go down. While downtime is unavoidable in some situations, I believe
-  that keeping software fast and operational as often as possible is the goal
-  for any software engineer. Well, aside from creating a time machine to remove
-  technical debt before it happens.
+  using their proprietary software. Often it would be unintuitive, slow, or the
+  system would go down entirely. While downtime is unavoidable, I believe
+  keeping software fast and operational, as often as possible, is the goal
+  for any software engineer.
+  `
+  + "<br>" + "</br>" + 
+  `
+  My passions lie in site reliability, API design, system design, cloud architecture,
+  and integrating with interesting third party services. Outside of software, I'm also
+  an avid boulderer and reader.
   `
   ;
 
